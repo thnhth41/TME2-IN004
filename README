@@ -1,0 +1,26 @@
+NUM ETUDIANT 21507558
+
+TME2 : Représentation et opérations numériques, booléennes et sur des
+chaines de caractères.
+
+Exercice 2:
+
+question 1 : 0x4120 0000 = 0100 0001 0010 0000 0000 0000 0000 0000
+
+SIGNE (S) = 0
+EXPONENT (E) = 1000 0010 = 128 + 2 = 130 - 127 = 3
+MANTISSE (M) = 010 0000 0000 0000 0000 0000
+
+question 2 : 0x4195 0E56 = 0100 0001 1001 0101 0000 1110 0101 0110
+
+SIGNE (S) = 0
+EXPONENT (E) = 1000 0011 = 131 - 127 = 4
+MANTISSE (M) = 001 0101 0000 1110 0101 0110
+
+on a 1,00101010000111001010110 * 2^4 
+= 10010,1010000111001010110 = 18,632 arrondie a 10^-3 pres.
+
+Le nombre décimal représenté est approximativement $18,632$.
+
+question 3 : En utilisant le programme précédent, les codages hexadécimaux des flottants 25,5 et 0,008 
+sont respectivement 0x41CC0000 et 0x3C03126F
